@@ -9,7 +9,7 @@ def fetch_from_mongodb(database_name, collection_name):
     try:
         # Establish MongoDB connection
         client = MongoClient(
-            "mongodb+srv://akashrathod1433333:q7CKWcPEzdOlojzY@cluster12.jegtg.mongodb.net/?retryWrites=true&w=majority&appName=Cluster12"
+            "mongodb+srv://<Userid>:<Password>@cluster12.jegtg.mongodb.net/?retryWrites=true&w=majority&appName=Cluster12"
         )
         db = client[database_name]
         collection = db[collection_name]
@@ -30,8 +30,8 @@ def connect_to_sql_server():
         mysql_conn = mysql.connector.connect(
             host="localhost",  # Change to your MySQL host
             user="root",  # Your MySQL username
-            password="Akashwini@123",  # Your MySQL password
-            database="Akashdb",  # Your MySQL database name
+            password="XYZ",  # Your MySQL password
+            database="Databasename",  # Your MySQL database name
         )
         return mysql_conn
     except mysql.connector.Error as err:

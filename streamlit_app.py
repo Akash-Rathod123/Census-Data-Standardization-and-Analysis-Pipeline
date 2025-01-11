@@ -7,8 +7,8 @@ def get_db_connection():
     return mysql.connector.connect(
         host="localhost",
         user="root",
-        password="Akashwini@123",
-        database="akashdb"
+        password="PAssword",
+        database="DBname"
     )
 
 # Function to execute the query

@@ -6,7 +6,7 @@ file_path = r"C:\Users\DELL\Downloads\updated_filled_stateUT_dataset.xlsx"
 data = pd.read_excel(file_path)
 
 # Step 1: Connect to MongoDB (replace <db_password> with your actual password)
-client = MongoClient("mongodb+srv://akashrathod1433333:q7CKWcPEzdOlojzY@cluster12.jegtg.mongodb.net/?retryWrites=true&w=majority&appName=Cluster12")
+client = MongoClient("mongodb+srv://<UserId>:<password>@cluster12.jegtg.mongodb.net/?retryWrites=true&w=majority&appName=Cluster12")
 
 # Select the database and collection
 db = client["census_database"]  # Create or select the database
