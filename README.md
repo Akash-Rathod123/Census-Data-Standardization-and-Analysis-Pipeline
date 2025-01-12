@@ -25,7 +25,7 @@ This project is aimed at building an end-to-end data pipeline for cleaning, proc
 
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/Akash-Rathod123/Census-Data-Standardization-and-Analysis-Pipeline.git
+    git clone "repo link"
     ```
 2. **Install dependencies**:
     ```bash
